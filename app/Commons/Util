@@ -1,0 +1,7 @@
+<?php
+
+return [
+    'server_port' => env('SERVER_PORT', 'default_port'),
+    'api_version' => env('API_VERSION', 'v1'),
+    'jwt_secret' => env('JWTSECRET_PRIVATE', 'your_jwt_secret'),
+];
